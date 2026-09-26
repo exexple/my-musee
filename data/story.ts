@@ -62,7 +62,7 @@ export interface StoryData {
   // ──────────────── AUDIO ───────────────────────────────────
   /**
    * Path to background music file inside /public/
-   * Example: '/audio/soundtrack.mp3'
+   * Example: '/audio/dandelions.mp3'
    * Change this ONE value to swap the music.
    */
   musicSrc: string;
@@ -143,7 +143,7 @@ export const story: StoryData = {
   // ──────────────── AUDIO ───────────────────────────────────
   // Replace the file path below with your actual music file.
   // Upload your .mp3 to /public/audio/ and update this path.
-  musicSrc:  "/audio/soundtrack.mp3",
+  musicSrc:  "/audio/dandelions.mp3",
   musicLabel: "Toggle background music",
 
   // ──────────────── SCENE 01 — THE INVITATION ───────────────

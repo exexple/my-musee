@@ -1,4 +1,6 @@
-Replace this file with your actual music file.
+Replace this file by dropping your music file:
 Supported format: .mp3
-Place it at: /public/audio/soundtrack.mp3
-Then update the `musicSrc` field in data/story.ts if you named it differently.
+File name: dandelions.mp3
+Place it at: /public/audio/dandelions.mp3
+
+It will automatically play in the background when the user clicks 'Enter'.

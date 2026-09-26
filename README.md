@@ -16,7 +16,7 @@ Everything — name, text, captions, observations, memories, music path — live
 |---|---|
 | `/public/images/` | `photo-01.webp` through `photo-06.webp` |
 | `/public/videos/` | `memory-01.mp4` through `memory-04.mp4` (silent) |
-| `/public/audio/`  | `soundtrack.mp3` (or update path in `story.ts`) |
+| `/public/audio/`  | `dandelions.mp3` |
 
 ## Deploy
 
