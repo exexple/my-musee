@@ -65,7 +65,6 @@ export default function Page() {
           {/* SCENE 07 */}
           <FinaleScene
             data={story.finale}
-            name={story.name}
           />
         </>
       )}

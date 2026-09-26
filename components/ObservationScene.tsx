@@ -32,7 +32,7 @@ function ObservationItem({
         animate={inView ? { opacity: 1 } : { opacity: 0 }}
         transition={{ duration: 1.0, ease, delay: 0.1 }}
       >
-        "
+        &ldquo;
       </motion.span>
 
       <motion.p

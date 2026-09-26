@@ -7,12 +7,11 @@ import type { StoryData } from '@/data/story';
 
 interface Props {
   data: StoryData['finale'];
-  name: string;
 }
 
 const ease = [0.76, 0, 0.24, 1] as const;
 
-export default function FinaleScene({ data, name }: Props) {
+export default function FinaleScene({ data }: Props) {
   const ref    = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: '-10% 0px' });
 

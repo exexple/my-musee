@@ -1,6 +1,29 @@
 import type { Metadata, Viewport } from 'next';
+import { Playfair_Display, Cormorant, DM_Mono } from 'next/font/google';
 import './globals.css';
 import { story } from '@/data/story';
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
+  display: 'swap',
+});
+
+const cormorant = Cormorant({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-cormorant',
+  display: 'swap',
+});
+
+const dmMono = DM_Mono({
+  weight: ['300', '400'],
+  subsets: ['latin'],
+  style: ['normal'],
+  variable: '--font-dm-mono',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: story.siteTitle,
@@ -30,15 +53,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${playfair.variable} ${cormorant.variable} ${dmMono.variable}`}>
       <head>
         <meta name="color-scheme" content="dark" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Mono:wght@300;400&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body>{children}</body>
     </html>
