@@ -1,0 +1,4 @@
+Replace this file with your actual music file.
+Supported format: .mp3
+Place it at: /public/audio/soundtrack.mp3
+Then update the `musicSrc` field in data/story.ts if you named it differently.

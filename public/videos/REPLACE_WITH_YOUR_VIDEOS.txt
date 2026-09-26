@@ -1,0 +1,13 @@
+Upload your videos here with these exact names:
+
+memory-01.mp4  — First video moment (after observation 2)
+memory-02.mp4  — Second video moment (after observation 4)
+memory-03.mp4  — Third video moment (after observation 6)
+memory-04.mp4  — Fourth video moment (after observation 8)
+
+Requirements:
+- All videos MUST be silent (no audio track)
+- MP4 format, H.264 codec
+- Recommended: 1080p or 720p
+- Keep each under 30MB for fast loading
+- Landscape orientation preferred

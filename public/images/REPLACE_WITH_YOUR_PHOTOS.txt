@@ -1,0 +1,11 @@
+Upload your photos here with these exact names:
+
+photo-01.webp  — Used in Scene 02 (The Realization) + finale
+photo-02.webp  — Observation 1 (paired with "the way you smile")
+photo-03.webp  — Observation 3 (ordinary moments)
+photo-04.webp  — Observation 6 (thinking expression)
+photo-05.webp  — Observation 8 (being herself)
+photo-06.webp  — Scene 07 finale / cinematic crop
+
+Format: .webp preferred (smaller, faster). .jpg also works — update src in data/story.ts.
+Recommended dimensions: 1200×900px or larger.
